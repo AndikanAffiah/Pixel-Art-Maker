@@ -37,7 +37,7 @@ function makeGrid() {
    //console.log(cells);
    for (var i = 0; i < cells.length; i++) { //loop over each cell
       cells[i].onclick = function(){ //attach onclick eventListener
-         this.style.backgroundColor = coloured.value; //set cell background to coloured value
+         //this.style.backgroundColor = coloured.value; //set cell background to coloured value
          	if(this.style.backgroundColor !== coloured.value){
 		this.style.backgroundColor = coloured.value;
 	}
