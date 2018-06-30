@@ -10,6 +10,9 @@
 var width, height, table, cells, tr, td;
 var coloured = document.getElementById('colorPicker');
 
+document.getElementById("sizePicker").addEventListener("submit", function(event){
+event.preventDefault(); makeGrid()});
+
 function makeGrid() {
 
    width = document.getElementById('inputWeight').value; //set width value
